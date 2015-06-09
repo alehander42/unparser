@@ -7,7 +7,7 @@ module Unparser
     FIRST_CHILD = ->(node) { node.children.first }.freeze
     TAUTOLOGY   = ->(_node) { true }.freeze
 
-    RESET_NODES   = [:module, :class, :sclass, :def, :defs].freeze
+    RESET_NODES   = [:module, :class, :sclass, :function, :def, :defs, :on].freeze
     INHERIT_NODES = [:block].freeze
     CLOSE_NODES   = (RESET_NODES + INHERIT_NODES).freeze
 

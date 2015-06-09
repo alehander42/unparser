@@ -57,6 +57,7 @@ module Unparser
     # Keywords
     K_DO       = 'do'
     K_DEF      = 'def'
+    K_ON       = 'on'
     K_END      = 'end'
     K_BEGIN    = 'begin'
     K_CASE     = 'case'
@@ -65,6 +66,7 @@ module Unparser
     K_ENSURE   = 'ensure'
     K_DEFINE   = 'define'
     K_MODULE   = 'module'
+    K_FUNCTION = 'function'
     K_RESCUE   = 'rescue'
     K_RETURN   = 'return'
     K_UNDEF    = 'undef'
